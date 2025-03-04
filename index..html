@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIE Atlantique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="scrollToTop()">Logo</div>
+        <nav>
+          <ul class="menu">
+            <li class="dropdown">
+              <a href="">Qui sommes-nous ?</a>
+              <ul class="dropdown-menu">
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="/activites.html">Activités et offre de services</a></li>
+                <li><a href="/gouvernance.html">Gouvernance</a></li>
+                <li><a href="/equipe.html">Notre équipe</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Nos membres</a>
+              <ul class="dropdown-menu">
+                <li><a href="/adherents.html">Adhérents</a></li>
+                <li><a href="/partenaires.html">Partenaires</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Actualités et évènements</a>
+              <ul class="dropdown-menu">
+                <li><a href="/infos-actualites.html">Infos et Actualités</a></li>
+                <li><a href="/agenda-.html">Agenda évènements</a></li>
+              </ul>
+            </li>
+            <li><a href="/passerelle-emploi.html">Passerelle emploi</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="espace-adherent">
+          <a href="/se-connecter.html">Se Connecter</a>
+          <a href="/s-inscrire.html">S’inscrire</a>
+        </div>
+      </header>
+
+      <main>
+        <!-- Bloc Présentation et Activités -->
+        <section id="presentation-activites" class="section">
+          <div class="container">
+            <h2>Présentation et activités</h2>
+            <p>
+             Présentation du GIE Atlantique en un court texte
+            </p>
+            <a href="services.html" class="btn">En savoir +</a>
+          </div>
+        </section>
+    
+        <!-- Bandeau Adhérents -->
+        <section id="bandeau-adherents" class="section">
+          <div class="container">
+            <h2>Devenez Adhérent</h2>
+            <p>Rejoignez notre réseau et bénéficiez de nos services exclusifs.</p>
+            <a href="adhesion.html" class="btn">Devenir Adhérent</a>
+          </div>
+        </section>
+    
+        <!-- Grille d'Actualités -->
+        <section id="actualites" class="section">
+          <div class="container">
+            <h2>Actualités</h2>
+            <div class="grid">
+              <div class="card">
+                <h3>Actualité 1</h3>
+                <p>Résumé de l'actualité 1...</p>
+              </div>
+              <div class="card">
+                <h3>Actualité 2</h3>
+                <p>Résumé de l'actualité 2...</p>
+              </div>
+              <div class="card">
+                <h3>Actualité 3</h3>
+                <p>Résumé de l'actualité 3...</p>
+              </div>
+            </div>
+            <a href="/infos-actualites.html" class="btn">Toutes nos actualités</a>
+          </div>
+        </section>
+    
+        <!-- Nos Prochains Évènements -->
+        <section id="evenements" class="section">
+          <div class="container">
+            <h2>Nos Prochains évènements</h2>
+            <div class="grid">
+              <div class="card">
+                <h3>Évènement 1</h3>
+                <p>Date : 15 mars 2025</p>
+              </div>
+              <div class="card">
+                <h3>Évènement 2</h3>
+                <p>Date : 22 mars 2025</p>
+              </div>
+            </div>
+            <a href="calendrier.html" class="btn">Voir le calendrier complet</a>
+          </div>
+        </section>
+    
+        <!-- Passerelle Emploi -->
+        <section id="passerelle-emploi" class="section">
+          <div class="container">
+            <h2>Passerelle Emploi</h2>
+            <p>
+              La passerelle emploi vous permet de déposer votre CV et de consulter les offres d'emploi disponibles. 
+              Nous vous accompagnons dans votre recherche d'opportunités.
+            </p>
+            <a href="emploi.html" class="btn">Accéder à la passerelle emploi</a>
+          </div>
+        </section>
+    
+        <!-- Inscription à la Newsletter -->
+        <div id="newsletter-popup">
+          <button id="close-popup">&times;</button>
+          <h3>Inscrivez-vous à notre Newsletter</h3>
+          <form>
+            <input type="email" placeholder="Votre email" required>
+            <button type="submit">S'inscrire</button>
+          </form>
+        </div>
+    
+        <!-- Notre Équipe -->
+        <section id="notre-equipe" class="section">
+          <div class="container">
+            <h2>Notre Équipe</h2>
+            <p>
+              Court texte sur l'équipe
+            </p>
+            <a href="equipe.html" class="btn">En savoir plus</a>
+          </div>
+        </section>
+    
+        <!-- Formulaire de Contact -->
+        <section id="contact" class="section">
+          <div class="container">
+            <h2>Nous Contacter</h2>
+            <form class="contact-form">
+              <input type="text" placeholder="Votre nom" required>
+              <input type="email" placeholder="Votre email" required>
+              <textarea placeholder="Votre message" required></textarea>
+              <button type="submit" class="btn">Envoyer</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      
+    <footer>
+      <ul>
+        <li><a href="#mentions-legales">Mentions légales</a></li>
+        <li><a href="#politiques-cookies">Politiques cookies</a></li>
+        <li><a href="#plan-du-site">Plan du site</a></li>
+      </ul>
+      <div class="social-media">
+        <span>Nous suivre :</span>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">🌐</a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">🐦</a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">📸</a>
+      </div>
+    </footer>
+</body>
+</html>
+      <script src="script.js"></script>
+</body>
+</html>
